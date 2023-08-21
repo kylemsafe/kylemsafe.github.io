@@ -16,6 +16,9 @@
 * write a tag with this app.
 ******************************************************************************
 */
+
+// The ST25DVSensor.h library is required
+// The hardware for this project is located TBD
  
 #include "ST25DVSensor.h"
 
