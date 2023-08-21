@@ -1,44 +1,4 @@
 /**
- ******************************************************************************
- * @file    ST25DV_HelloWorld.ino
- * @author  STMicroelectronics
- * @version V1.0.0
- * @date    22 November 2017
- * @brief   Arduino test application for the STMicrolectronics
- *          ST25DV NFC device.
- *          This application makes use of C++ classes obtained from the C
- *          components' drivers.
- ******************************************************************************
- * @attention
- *
- * <h2><center>&copy; COPYRIGHT(c) 2017 STMicroelectronics</center></h2>
- *
- * Redistribution and use in source and binary forms, with or without modification,
- * are permitted provided that the following conditions are met:
- *   1. Redistributions of source code must retain the above copyright notice,
- *      this list of conditions and the following disclaimer.
- *   2. Redistributions in binary form must reproduce the above copyright notice,
- *      this list of conditions and the following disclaimer in the documentation
- *      and/or other materials provided with the distribution.
- *   3. Neither the name of STMicroelectronics nor the names of its contributors
- *      may be used to endorse or promote products derived from this software
- *      without specific prior written permission.
- *
- * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
- * AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
- * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
- * DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
- * FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
- * DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
- * SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
- * CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
- * OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
- * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
- *
- ******************************************************************************
- */
-
-/**
 ******************************************************************************
 * How to use this sketch
 *
@@ -104,7 +64,8 @@ String uri_write_positive;
 String uri_write_negative;
 String uri_write_invalid;
 
-//Update this line to "" instead of URI_ID_0x04_STRING to change to a text message
+
+//const char uri_write_protocol_web[] = "";  //Use this line to instead of URI_ID_0x04_STRING to change the message to a text message for the app, also update the const char list accordingly
 const char uri_write_protocol_web[] = URI_ID_0x04_STRING;
 
 
@@ -113,12 +74,14 @@ const char uri_write_message_positive[] = "kylemsafe.github.io/positive.html";
 const char uri_write_message_negative[] = "kylemsafe.github.io/negative.html";
 const char uri_write_message_invalid[] = "kylemsafe.github.io/invalid.html";
 
+//Use these constants if a text message should be sent from the NFC to the phone
 /*
 const char uri_write_message_appstore[] = "https://apps.apple.com/us/app/safe-healthcheck/id1536698575";
 const char uri_write_message_positive[] = "positive";
 const char uri_write_message_negative[] = "negative";
 const char uri_write_message_invalid[] = "invalid";
 */
+
 unsigned long previousMillis = 0;
 const long interval = 1000; 
 
