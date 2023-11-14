@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.logo {
+    width: 50px; /* Adjust as needed */
+    height: auto;
+}
+
+#login-section {
+    margin-top: 50px;
+}
+
+/* Add more styling as needed */

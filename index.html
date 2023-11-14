@@ -1,1 +1,29 @@
-SAFE TEST LANDING PAGE
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+<div id="login-section">
+    <h2>Login</h2>
+    <input type="text" id="username" placeholder="Username"><br>
+    <input type="password" id="password" placeholder="Password"><br>
+    <button onclick="login()">Login</button>
+</div>
+
+<div id="main-section" style="display: none;">
+    <div class="header">
+        <img src="logo.png" alt="Logo" class="logo">
+    </div>
+
+    <div class="form-section">
+        <!-- Form content will be inserted here by JavaScript -->
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
