@@ -1,0 +1,14 @@
+{
+    "name": null,
+    "email": null,
+    "favoriteColor": ["Red", "Green", "Blue", "Yellow"],
+    "address": {
+        "street": null,
+        "city": null,
+        "state": null
+    },
+    "phoneNumbers": [
+        { "type": null, "number": null },
+        { "type": null, "number": null }
+    ]
+}

@@ -1,0 +1,330 @@
+{
+    "EUA Form": {
+      "testNames": [
+        "Covid",
+        "HIV"
+      ],
+      "sampleTypes": ["Nasopharyngeal swabs", "Oropharyngeal swab", "Sputa", "BAL", "Saliva"],
+      "use": [
+        "Prescription",
+        "Over the counter"
+      ],
+      "testingPopulation": {
+        "Symptomatic": {
+          "Number of days from onset of symptoms": null
+        },
+        "Asymptomatic": {}
+      },
+      "measurand": "Targeted Antigen(s)",
+      "applicant": {
+        "Official Name": null,
+        "Address": null,
+        "Contact Information": {
+          "Phone number": null,
+          "Email address": null
+        },
+        "Primary Correspondent": {
+          "Official Name": null,
+          "Address": null,
+          "Phone number": null,
+          "Email address": null
+        }
+      },
+      "Proprietary and Established Names": {
+        "Proprietary Name": null,
+        "Established Name": null
+      },
+      "Regulatory Information": {
+        "Approval/Clearance/Authorization Status": {
+          "Not cleared/Not approved/Not CLIA waived": null,
+          "Not Subject to an approved Investigational Device Exemption": null,
+          "If previously reviewed in an EUA; submission number": null
+        }
+      },
+      "Panel Code": {}, 
+      "Review Group": {},
+      "Product Code": {},
+      "Intended Use": {},
+  
+      "Technology": [
+        "RT-PCR",
+        "Lateral Flow Immunoassay"
+      ],
+      "Intended to Detect": [
+        "RNA",
+        "Antigen (protein Name)",
+        "Sample Type"
+      ],
+      "User Age": {
+        "Testing Population": [
+          "Symptomatic, within the first X days of symptoms onset",
+          "Asymptomatic"
+        ]
+      },
+      "Special Conditions for Use Statements": [
+        "For prescription use only",
+        "For in vitro diagnostic use",
+        "For Emergency Use Authorization only"
+      ],
+      "Special Instruments": {
+        "List Instruments": null,
+        "Software": null,
+        "Cameras": null,
+        "Smart Phones": null,
+        "Operating System": null,
+        "Other Applicable Instruments": null
+      },
+      "Product Overview/Test Principle": {
+        "Technology": [
+          "RT-PCR",
+          "Lateral Flow Immunoassay"
+        ],
+        "Intended to Detect": [
+          "RNA",
+          "Antigen (protein Name)",
+          "Sample Type"
+        ],
+        "User Age": null,
+        "Testing Population": [
+          "Symptomatic, within the first X days of symptoms onset",
+          "Asymptomatic"
+        ]
+      },
+      "Description of Test Steps": {
+        "Control Material(s)": {
+          "Provided in the Kit": null,
+          "Required but not provided": {
+            "Supplier's Name": null,
+            "Catalog Number": null
+          }
+        }
+      },
+      "Quick Reference Instruction": {
+        "Use in Human Usability Studies": null,
+        "Use in Final Clinical Study": null
+      },
+      "Test Result Reporting": {
+        "Using appropriate LOINC and SNOMED codes": "As defined by the Laboratory In Vitro Diagnostics (LIVD) Test Code Mapping for SARS-CoV-2 Tests provided by CDC"
+      },
+      "Mobile applications and software": {
+        "List mobile applications": null,
+        "Smartphone specifications": {
+          "Memory": null,
+          "Processor": null,
+          "Minimum Operating Systems": {
+            "iOS": null,
+            "Android": null
+          },
+          "Capability": null
+        },
+        "List web applications": {
+          "Browser": null
+        },
+        "List Softwares": {
+          "Summary of V&V": null,
+          "Cybersecurity Protocol": {
+            "Version number": null,
+            "Configuration": null,
+            "Cipher suite": null
+          },
+          "API security": null
+        }
+      },
+      "Interpretation of Results": null,
+      "Product Manufacturing": {
+        "Test developer name": null,
+        "FDA registration": null,
+        "Type of devices": null,
+        "Type of Quality System": null,
+        "Packager name": null,
+        "Instruments, labeled as RUO": null,
+        "Any other components, labeled as RUO": null,
+        "Kit components & other materials/information included with the test": null,
+        "Kit components & other materials/information required but Not included with the test": null
+      },
+      "Software Validation": {
+        "Specification": null,
+        "Input": null,
+        "Output": null,
+        "Hazard analysis": null
+      },
+      "Basic Safety and essential performance": null,
+      "Electromagnetic Compatibility (EMC) testing": "If applicable",
+      "Manufacturing and testing capabilities": {
+        "Sample throughput": null,
+        "Time to perform the test": null,
+        "Number of test per day": null
+      },
+      "Distribution Plan": null,
+      "Reagent Stability": {
+        "Real time": null,
+        "Accelerated": null
+      },
+      "Antibodies": {
+        "Description of anti-SARS-CoV-2 antibodies used in the test": null,
+        "Polyclonal?": null,
+        "Monoclonal?": null,
+        "Specific amino acid sequence of the immunogen": null,
+        "Description of how the immunogen was generated": null,
+        "Description of epitope(s)": {
+          "Linear": null,
+          "Conformational": null
+        }
+      },
+      "Performance evaluation": {
+        "Validation Studies": null
+      },
+      "Limit of detection - Analytical Sensitivity": {
+        "Viral Material used": {
+          "Titers": null,
+          "Strains": null
+        },
+        "Real clinical matrix used": null,
+        "Sample prep procedure": {
+          "Dilution factors": null,
+          "Number of serial dilutions": null
+        },
+        "Testing procedure": {
+          "Number of replicates": null
+        },
+        "Confirmation": {
+          "Concentration/dilutions": null,
+          "Number of replicates": null
+        }
+      },
+      "Inclusivity - Analytical Reactivity": {
+        "List virus variants": null,
+        "Assess if": {
+          "Prevalent": null,
+          "Clinically significant": null,
+          "Predicted amino acid change": null,
+          "Critical to test design": {
+            "Yes": {
+              "Test with Clinical samples": null,
+              "Test with Contrived samples": null
+            },
+            "No": null
+          }
+        }
+      },
+      "Cross-reactivity - Analytical Specificity": {
+        "List of organisms": null,
+        "Negative Clinical Matrix": null,
+        "Concentrations tested": null,
+        "Sample prep procedure": null,
+        "Number of replicates": null
+      },
+      "Microbial Interference Studies": {
+        "List of organisms": null,
+        "Negative Clinical Matrix": null,
+        "Concentrations tested": null,
+        "Sample prep procedure": null,
+        "Number of replicates": null
+      },
+      "Endogenous/Exogenous Interference Substances Studies": {
+        "List of potential interfering substance": null,
+        "Negative Clinical Matrix": null,
+        "Concentrations tested": null,
+        "Sample prep procedure": null,
+        "Number of replicates": null
+      },
+      "Biotin Interference": "If applicable (if assay uses biotin/anti-biotin capture system)",
+      "High-dose Hook Effect": {
+        "Viral Material used": null,
+        "Negative clinical matrix used": null,
+        "Sample prep procedure": null,
+        "Testing procedure": null,
+        "Number of replicates": null
+      },
+      "Sample Stability": {
+        "Viral Material used": null,
+        "Negative clinical matrix used": null,
+        "Sample prep procedure": null,
+        "Testing procedure": null,
+        "Number of replicates": null
+      },
+      "Clinical Evaluation": {
+        "Sites": {
+          "Collection site/Testing site": [
+            {
+              "Location Name": "Location #1 Name",
+              "Location Address": "Location #1 Address"
+            },
+            {
+              "Location Name": "Location #2 Name",
+              "Location Address": "Location #2 Address"
+            }
+          ],
+          "Sample Matrix (Type)": null,
+          "Collection Technique": null,
+          "Collection Device": null,
+          "Number of Samples Collected": null,
+          "Description of Patient Population": {
+            "Age": {
+              "<14 years": "Parent or legal guardian collects a sample",
+              "14-24 years": null,
+              "24-64 years": null,
+              "≥65 years": null
+            },
+            "Gender": null,
+            "Number of Days Post-Onset of Symptoms": null
+          }
+        },
+        "Enrollment Criteria": {
+          "Inclusion Criteria": null,
+          "Exclusion Criteria": null,
+          "Informed Consent": null,
+          "How Patients Enrolled": null,
+          "Method of Randomization": null,
+          "Method of Blinding": null
+        },
+        "Comparator Test": {
+          "Name": null,
+          "Sample Matrix (Type)": null,
+          "Transport Media": null,
+          "Testing Protocol": null,
+          "Platform": null,
+          "Extraction Kit": {
+            "Yes": "Name",
+            "No": null
+          }
+        },
+        "Usability Study": {
+          "Questions for Participants": {
+            "Ease of Use of": {
+              "Sample Collection": null,
+              "Test Procedure": null,
+              "Result Interpretation": null,
+              "Understanding Consequences of Incorrect Steps": null
+            },
+            "User Comprehension of Test Results/Procedure": {
+              "Interpreting Positive/Negative/Invalid Results": null,
+              "Instruction for Use": null
+            }
+          },
+          "Pre-defined Acceptance Criteria": null,
+          "Observing the Participants": null,
+          "In-person or Remote Visual Monitoring": null,
+          "Different Socioeconomic and Educational Background": null
+        }
+      },
+      "Labeling": {
+        "Outer Box Information": {
+          "Expiration Date (Sticker)": "Based on component of kit with the earliest expiration date",
+          "For Emergency Use Authorization (EUA) Only": null,
+          "For in vitro Diagnostic Use": null,
+          "Must be 18+ to Use this Kit": null,
+          "Testing Frequency for Asymptomatic Individuals": null,
+          "False Negative Results": null,
+          "Serial Testing": null,
+          "Probability of False Negative": null,
+          "Storage Temperature": null,
+          "Summary of Box Contents": null,
+          "Necessary Items to Use the Kit": null,
+          "Summary of How the Kit Works": null,
+          "Warnings and Related Information from EUA Letter of Authorization": null
+        },
+        "Limitations": null
+      }
+    }
+  }
